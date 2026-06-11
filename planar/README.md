@@ -1,48 +1,60 @@
-# AI Trip Advisor
+# AI Trip Planner
 
-This repository contains the code for an AI-driven Trip Advisor, which generates customized trips with hotel recommendations and itineraries based on user budgets and travel preferences. Due to the use of Google Maps Places (NEW), Photos, and Geolocation APIs, this project has a restriction of staying under an expenditure of $200 monthly, hence no deployed link is provided.
+AI Trip Planner is a smart travel planning application that generates personalized travel itineraries based on user preferences, budget, destination, trip duration, and travel style.
 
 ## Features
 
-- **Personalized Trips**: Generate trips tailored to your budget and travel choices.
-- **Hotel Recommendations**: Get hotel suggestions that fit your itinerary.
-- **Dynamic Itineraries**: Itineraries are created based on user preferences and budgets.
+- AI-powered trip planning
+- Personalized itineraries
+- Hotel recommendations
+- Budget-based travel suggestions
+- Google Places integration
+- Gemini AI-powered recommendations
 
 ## Screenshots
 
 ![alt text](<Screenshot 2026-06-11 072729.png>)
 
-## Getting Started
+## Installation
 
-To run this project on your machine, follow these steps:
+### Clone the repository
 
-1. **Clone the repository**:
+```bash
+git clone https://github.com/your-username/trip-planar.git
+cd trip-planar
+```
 
-   ```bash
-   git clone https://github.com/your-username/ai-trip-advisor.git
-   cd ai-trip-advisor
-   ```
+### Install dependencies
 
-2. **Create a `.env.local` file in the root folder**:
+```bash
+npm install
+```
 
-   ```plaintext
-   VITE_GOOGLE_PLACE_API_KEY=your_google_place_api_key
-   VITE_GOOGLE_GEMINI_AI_API_KEY=your_google_gemini_ai_api_key
-   VITE_GOOGLE_AUTH_CLIENT_ID=your_google_auth_client_id
-   FIREBASE_API_KEY=your_firebase_api_key
-   ```
+### Configure environment variables
 
-3. **Install dependencies**:
+Create a `.env.local` file:
 
-   ```bash
-   npm install
-   ```
+```env
+VITE_GOOGLE_PLACE_API_KEY=YOUR_GOOGLE_PLACE_API_KEY
+VITE_GOOGLE_GEMINI_AI_API_KEY=YOUR_GEMINI_API_KEY
+FIREBASE_API_KEY=YOUR_FIREBASE_API_KEY
+```
 
-4. **Run the application**:
-   ```bash
-   npm run dev
-   ```
+### Run the application
 
-## Contributing
+```bash
+npm run dev
+```
 
-Contributions are welcome! Please fork the repository and create a pull request with your changes.
+## Tech Stack
+
+- React.js
+- Vite
+- Tailwind CSS
+- Firebase
+- Google Places API
+- Google Gemini AI
+
+## Author
+
+Binay Pal
